@@ -1,0 +1,367 @@
+ body{
+ 	background-color: black;
+ }
+
+
+ *{
+	margin: 0; padding: 0; box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+header{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.1)) ,url(../images/r2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+nav{
+	width: 100%; height: 15vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: white; display: flex; justify-content: space-between;
+	align-items: center; 
+
+}
+nav .logo{
+	width: 25%; text-align: center;
+	font-size:25px; 
+	text-shadowpoxpx 7px 8px black;
+
+
+
+
+}
+nav .menu{
+	width: 45%;
+	display: flex; justify-content: space-around;
+
+}
+nav .menu a {
+	width: 25%;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+nav .menu a:first-child{
+	color: #00b894;
+}
+main{
+	width: 100%;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: white;
+}
+section{
+}
+
+section h2{
+	font-size: 45px;
+	font-weight: 300;
+	letter-spacing: 3px; font-weight: bold;
+	text-shadow: 7px 7px 8px black;
+	margin-bottom: 27px;
+}
+
+h3{
+	font-size: 27px;
+	font-weight: 300;
+	letter-spacing: 3px; font-weight: bold;
+	text-shadow: 7px 7px 8px black;
+	margin-bottom: 38px;
+
+}
+section a{
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+section .btnone{
+	background: #fff;
+	color: #000;
+
+}
+section .btntwo{
+	background: #00b894;
+	color: white;
+}
+.btnone:hover{
+	background: #00b894;
+	color: white;
+
+}
+.btntwo:hover{
+	background: #fff;
+	color: #000;
+
+}
+.author{
+	margin-top: 15px;
+}
+.pg2{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.1)) ,url(../images/r7.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pg3{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.1)) ,url(../images/r5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+.mig1{
+	width: 40%; height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: center;
+	margin-left: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.msn{
+	margin-bottom: 50px;
+	font-family: 'Josefin Sans';
+	color: #00b894;
+	font-weight: bold;
+
+
+}
+.btnthree{
+	background: #00b894;
+	color: white;
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.msn2{
+	padding-bottom: 20px;
+}
+
+.msn3{
+	padding-bottom: 50px;
+}
+
+.btnthree:hover{
+	background: #fff;
+	color: #000;
+}
+
+.mig2{
+	width: 30%; height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.vs1{
+	padding-top: 40px;
+	font-family: 'Josefin Sans';
+	color: #00b894;
+	font-weight: bold;
+	font-size: 25px;
+}
+.vs2{
+	padding-top: 40px;
+	font-family: 'Josefin Sans';
+	color: white;
+	font-weight: bold;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+
+
+}
+.vs3{
+	padding-top: 40px;
+	font-family: 'Josefin Sans';
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+.vs4{
+	padding-top: 10px;
+}
+.pg4{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.1)) ,url(../images/r8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.mig3{
+	width: 40%; height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: center;
+	margin-left: 60%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.vs5{
+	padding-right: 70%;
+	font-size: 15px;
+	margin-top: 25px;
+	font-family: 'Josefin Sans';
+}
+
+.vs6{
+	padding-top: 10px;
+	font-family: 'Josefin Sans';
+	color: #00b894;
+	font-weight: bold;
+	font-size: 25px;
+}
+.vs7{
+	padding-top: 10px;
+	font-family: 'Josefin Sans';
+	color: #00b894;
+	font-weight: bold;
+	font-size: 25px;
+}
+.vs8{
+	padding-top: 10px;
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	font-size: 20px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	margin-bottom: 35px;
+}
+.btnfor{
+	background: #00b894;
+	color: white;
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+.btnfor:hover{
+	background: #fff;
+	color: #000;
+}
+.pg5{
+	width: 100%; height: 100vh;
+	background-image:linear-gradient(rgba(0,0,0,0.5) ,rgba(0, 0, 0, 0.1)) ,url(../images/r9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mig4{
+	width: 40%; height: 100%;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.vs9{
+	padding-top: 200px;
+	font-family: 'Josefin Sans';
+	font-weight: bold;
+	font-size: 40px;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+	margin-bottom: 40px;
+}
+.btnfive{
+	background: #00b894;
+	color: white;
+	padding: 12px 30px;
+	border-radius: 4px;
+	outline: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 1px;
+}
+.btnfive:hover{
+	background: #fff;
+	color: #000;
+}
+.ctdiv{
+	padding-top: 49%;
+	align-items: center;
+	display: flex;
+	margin-left: 490px;
+
+
+}
+.ctdiv a{
+	height: 50px;
+	width: 50px;
+	background-color:;
+	border-radius: 50px;
+	text-align: center;
+	margin: 10px;
+	box-shadow: 1px 4px 2px 2px #dcdde1;
+	line-height: 65px;
+
+
+}
+.cvtdiv a i{
+	transition: all 0.3s linear;
+
+}
+.ctdiv a:hover i{
+	transform: scale(1.4);
+
+}
+.fa-instagram{
+	color: #e84393;
+}
+.fa-youtube{
+	color: #e84118;
+}
+.fa-twitter{
+	color: #0097e6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
